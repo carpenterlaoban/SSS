@@ -1,0 +1,7 @@
+Allen你这个脚本怎么控制TCP， UDP的？
+./sendEvent_old.py -d destination_IP -n 1 -p tcp filename
+
+kiwi syslog 这个软件 也可以发
+
+对了，我基于Allen的脚本测试IPv6的时候改了个可以发到IPv6环境的脚本，可以从以下路径获取：scp root@10.30.30.165:/home/admin/sendEventMultiline_V6.py
+用法和Allen的一致：./sendEventMultiline_V6.py -d 2002:ac14:1414:0:20c:29ff:feb0:6e51 -n 1 -p tcp 1.txt
